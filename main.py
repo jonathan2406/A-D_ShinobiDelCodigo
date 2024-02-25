@@ -17,6 +17,9 @@ class PrimerPunto:
             if numero.isdigit() == False:
                 print('eso no es un numero >:(((')
                 continue
+            elif int(numero) <= 1:
+                print('numeros mayores a 1 plzzzzzzzzzzzz') 
+                continue
             return int(numero)
 
     def printMatriz(matriz):
