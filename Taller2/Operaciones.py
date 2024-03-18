@@ -1,3 +1,5 @@
+#clase encargada de las operaciones matematicas para la realizacion del programa con todas sus clasificaciones
+
 class Operaciones:
 
     def factorial(numero): #O(n)

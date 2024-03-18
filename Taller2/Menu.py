@@ -1,5 +1,6 @@
 import inquirer
 
+#clase encargada del "front" del programa 
 class Menu: #O(n)
 
     def orden(): #O(1)

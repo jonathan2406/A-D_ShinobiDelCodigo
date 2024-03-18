@@ -2,6 +2,9 @@ from Operaciones import Operaciones
 from Menu import Menu
 from Pruebas import Pruebas
  
+
+#clase envolvente que se encaarga de la comunicacion entre usuario y saber que operacion debe realizar segun el input recopilado
+#el arbol de decisiones para tomar la decision de cual utilizar fue el que esta en las diapositivas en la u virtual de principios de conteo
 class Wilfram:
 
     def main():
