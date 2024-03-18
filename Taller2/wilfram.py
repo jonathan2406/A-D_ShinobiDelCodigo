@@ -38,7 +38,7 @@ class Wilfram:
             if Menu.repetirmenu() == False: break #O(1)
 
     def ejecutarPruebas():
-        Pruebas.ejecuacionPruebas()
+        Pruebas.ejecuacionPruebas() #O(1)
         
 
 
