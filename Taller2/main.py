@@ -1,5 +1,5 @@
 from wilfram import Wilfram
 
-#Wilfram.main()
+Wilfram.main()
 
-Wilfram.ejecutarPruebas()
+#Wilfram.ejecutarPruebas()
