@@ -68,7 +68,7 @@ print(f"la ecuacion final quedaria: \nzn = {k_variables[0]}*{cuadratic_variables
 inicioSinRecursion = time.perf_counter()
 
 # Calculamos y mostramos el valor en la posición n = 100
-print(f'la posicion n = 2000 con el algoritmo sin recursion es: \n{modoNoRecursivo(100)}')
+print(f'la posicion n = 2000 con el algoritmo sin recursion es: \n{modoNoRecursivo(2000)}')
 
 # declaramos una variable que tome el tiempo actual y le reste el tiempo de la variable de inicio para que arroje cuanto se demoro el codigo sin recursion ejecutando
 finSinRecursion = time.perf_counter()
@@ -89,7 +89,7 @@ inicioRecursion = time.perf_counter()
 
 # Calculamos y mostramos el valor en la posición n = 100
 sys.setrecursionlimit(10000)
-print(f'la posicion n = 2000 con el algoritmo recursivo es: \n{modoRecursivo(100)}')
+print(f'la posicion n = 2000 con el algoritmo recursivo es: \n{modoRecursivo(2000)}')
 
 # declaramos una variable que tome el tiempo actual y le reste el tiempo de la variable de inicio para que arroje cuanto se demoro el codigo conrecursion ejecutando
 finRecursion = time.perf_counter()
